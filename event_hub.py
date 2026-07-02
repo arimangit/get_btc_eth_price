@@ -19,6 +19,7 @@ def get_crypto_exchange_rates():
         "bitcoin_inr": f"Current Bitcoin Price in INR: ₹{btc_price * usd_to_inr:.2f}",
         "ethereum_dollar": f"Ethereum Price (USDT): ${eth_price:.2f}",
         "ethereum_inr": f"Ethereum Price in INR: ₹{eth_price * usd_to_inr:.2f}",
+        "usd_to_inr": f"USD to INR: ₹{usd_to_inr:.2f}",
     }
 
 if __name__ == "__main__":
